@@ -1,0 +1,54 @@
+﻿Build started 5/24/2016 11:40:18 PM.
+     1>Project "C:\Users\MuhammadMunib\Documents\Visual Studio 2013\Projects\Class StringCopied\Class StringCopied\Class StringCopied.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt String.cpp
+         String.cpp
+     1>c:\users\muhammadmunib\documents\visual studio 2013\projects\class stringcopied\class stringcopied\string.h(26): error C2535: 'CString::~CString(void)' : member function already defined or declared
+                 c:\users\muhammadmunib\documents\visual studio 2013\projects\class stringcopied\class stringcopied\string.h(13) : see declaration of 'CString::~CString'
+     1>c:\users\muhammadmunib\documents\visual studio 2013\projects\class stringcopied\class stringcopied\string.h(29): error C2535: 'char &CString::operator [](const int)' : member function already defined or declared
+                 c:\users\muhammadmunib\documents\visual studio 2013\projects\class stringcopied\class stringcopied\string.h(28) : see declaration of 'CString::operator []'
+     1>c:\users\muhammadmunib\documents\visual studio 2013\projects\class stringcopied\class stringcopied\string.h(32): warning C4114: same type qualifier used more than once
+     1>c:\users\muhammadmunib\documents\visual studio 2013\projects\class stringcopied\class stringcopied\string.h(64): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\muhammadmunib\documents\visual studio 2013\projects\class stringcopied\class stringcopied\string.h(64): warning C4183: '$S1': missing return type; assumed to be a member function returning 'int'
+     1>c:\users\muhammadmunib\documents\visual studio 2013\projects\class stringcopied\class stringcopied\string.cpp(59): error C2511: 'CString &CString::operator =(const CString &)' : overloaded member function not found in 'CString'
+                 c:\users\muhammadmunib\documents\visual studio 2013\projects\class stringcopied\class stringcopied\string.h(7) : see declaration of 'CString'
+     1>c:\users\muhammadmunib\documents\visual studio 2013\projects\class stringcopied\class stringcopied\string.cpp(61): error C2671: 'CString::=' : static member functions do not have 'this' pointers
+     1>c:\users\muhammadmunib\documents\visual studio 2013\projects\class stringcopied\class stringcopied\string.cpp(63): error C2671: 'CString::=' : static member functions do not have 'this' pointers
+     1>c:\users\muhammadmunib\documents\visual studio 2013\projects\class stringcopied\class stringcopied\string.cpp(65): error C2671: 'CString::=' : static member functions do not have 'this' pointers
+     1>c:\users\muhammadmunib\documents\visual studio 2013\projects\class stringcopied\class stringcopied\string.cpp(66): error C2597: illegal reference to non-static member 'CString::size'
+     1>c:\users\muhammadmunib\documents\visual studio 2013\projects\class stringcopied\class stringcopied\string.cpp(67): error C2597: illegal reference to non-static member 'CString::size'
+     1>c:\users\muhammadmunib\documents\visual studio 2013\projects\class stringcopied\class stringcopied\string.cpp(67): error C2597: illegal reference to non-static member 'CString::data'
+     1>c:\users\muhammadmunib\documents\visual studio 2013\projects\class stringcopied\class stringcopied\string.cpp(68): error C2662: 'const int CString::getLenght(void)' : cannot convert 'this' pointer from 'const CString' to 'CString &'
+                 Conversion loses qualifiers
+     1>c:\users\muhammadmunib\documents\visual studio 2013\projects\class stringcopied\class stringcopied\string.cpp(70): error C2597: illegal reference to non-static member 'CString::data'
+     1>c:\users\muhammadmunib\documents\visual studio 2013\projects\class stringcopied\class stringcopied\string.cpp(70): error C3867: 'CString::data': function call missing argument list; use '&CString::data' to create a pointer to member
+     1>c:\users\muhammadmunib\documents\visual studio 2013\projects\class stringcopied\class stringcopied\string.cpp(70): error C2109: subscript requires array or pointer type
+     1>c:\users\muhammadmunib\documents\visual studio 2013\projects\class stringcopied\class stringcopied\string.cpp(71): error C2597: illegal reference to non-static member 'CString::data'
+     1>c:\users\muhammadmunib\documents\visual studio 2013\projects\class stringcopied\class stringcopied\string.cpp(71): error C3867: 'CString::data': function call missing argument list; use '&CString::data' to create a pointer to member
+     1>c:\users\muhammadmunib\documents\visual studio 2013\projects\class stringcopied\class stringcopied\string.cpp(71): error C2109: subscript requires array or pointer type
+     1>c:\users\muhammadmunib\documents\visual studio 2013\projects\class stringcopied\class stringcopied\string.cpp(73): error C2671: 'CString::=' : static member functions do not have 'this' pointers
+     1>c:\users\muhammadmunib\documents\visual studio 2013\projects\class stringcopied\class stringcopied\string.cpp(76): error C2511: 'CString::CString(const CString &)' : overloaded member function not found in 'CString'
+                 c:\users\muhammadmunib\documents\visual studio 2013\projects\class stringcopied\class stringcopied\string.h(7) : see declaration of 'CString'
+     1>c:\users\muhammadmunib\documents\visual studio 2013\projects\class stringcopied\class stringcopied\string.cpp(77): error C2597: illegal reference to non-static member 'CString::size'
+     1>c:\users\muhammadmunib\documents\visual studio 2013\projects\class stringcopied\class stringcopied\string.cpp(78): error C2597: illegal reference to non-static member 'CString::size'
+     1>c:\users\muhammadmunib\documents\visual studio 2013\projects\class stringcopied\class stringcopied\string.cpp(78): error C3867: 'CString::size': function call missing argument list; use '&CString::size' to create a pointer to member
+     1>c:\users\muhammadmunib\documents\visual studio 2013\projects\class stringcopied\class stringcopied\string.cpp(78): error C2597: illegal reference to non-static member 'CString::data'
+     1>c:\users\muhammadmunib\documents\visual studio 2013\projects\class stringcopied\class stringcopied\string.cpp(79): error C2662: 'const int CString::getLenght(void)' : cannot convert 'this' pointer from 'const CString' to 'CString &'
+                 Conversion loses qualifiers
+     1>c:\users\muhammadmunib\documents\visual studio 2013\projects\class stringcopied\class stringcopied\string.cpp(82): error C2597: illegal reference to non-static member 'CString::data'
+     1>c:\users\muhammadmunib\documents\visual studio 2013\projects\class stringcopied\class stringcopied\string.cpp(82): error C3867: 'CString::data': function call missing argument list; use '&CString::data' to create a pointer to member
+     1>c:\users\muhammadmunib\documents\visual studio 2013\projects\class stringcopied\class stringcopied\string.cpp(82): error C2109: subscript requires array or pointer type
+     1>c:\users\muhammadmunib\documents\visual studio 2013\projects\class stringcopied\class stringcopied\string.cpp(83): error C2597: illegal reference to non-static member 'CString::data'
+     1>c:\users\muhammadmunib\documents\visual studio 2013\projects\class stringcopied\class stringcopied\string.cpp(83): error C3867: 'CString::data': function call missing argument list; use '&CString::data' to create a pointer to member
+     1>c:\users\muhammadmunib\documents\visual studio 2013\projects\class stringcopied\class stringcopied\string.cpp(83): error C2109: subscript requires array or pointer type
+     1>c:\users\muhammadmunib\documents\visual studio 2013\projects\class stringcopied\class stringcopied\string.cpp(120): error C2511: 'char &CString::operator [](const int) const' : overloaded member function not found in 'CString'
+                 c:\users\muhammadmunib\documents\visual studio 2013\projects\class stringcopied\class stringcopied\string.h(7) : see declaration of 'CString'
+     1>c:\users\muhammadmunib\documents\visual studio 2013\projects\class stringcopied\class stringcopied\string.cpp(121): error C2597: illegal reference to non-static member 'CString::size'
+     1>c:\users\muhammadmunib\documents\visual studio 2013\projects\class stringcopied\class stringcopied\string.cpp(121): error C3867: 'CString::size': function call missing argument list; use '&CString::size' to create a pointer to member
+     1>c:\users\muhammadmunib\documents\visual studio 2013\projects\class stringcopied\class stringcopied\string.cpp(121): error C2568: '<' : unable to resolve function overload
+                 unable to recover from previous error(s); stopping compilation
+     1>Done Building Project "C:\Users\MuhammadMunib\Documents\Visual Studio 2013\Projects\Class StringCopied\Class StringCopied\Class StringCopied.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.49
